@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Tourstap</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta property="og:title" content="The Tourstap" />
+    <meta property="og:description" content="Una nueva forma de disfrutar tus viajes..." />
+    <meta property="og:image" content="http://tourstap.com/img/facebook_share.jpg" />      
+    <meta property="og:url" content="http://tourstap.com/" />
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="http://tourstap.com/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://tourstap.com/css/main.min.css">
+	<script src="http://tourstap.com/js/jquery.min.js"></script>
+</head>
+<body class="text-center">
+		<section class="principal">
+			<div class="logo">
+				<img src="img/logo.png" class="image-responsive logo_sup" alt="fondo">
+			</div>
+			<p class="a">Una nueva forma de disfrutar tus viajes te espera...</p>
+			<p class="b">¡Falta muy poco!</p>
+			<div id="clockdiv">
+				<div>
+					<span class="days"></span>
+					<div class="smalltext">Días</div>
+				</div>
+				<div>
+					<span class="hours"></span>
+					<div class="smalltext">Horas</div>
+				</div>
+				<div>
+					<span class="minutes"></span>
+					<div class="smalltext">Minutos</div>
+				</div>
+				<div>
+					<span class="seconds"></span>
+					<div class="smalltext">Segundos</div>
+				</div>
+			</div>
+		</section>
+		<section id="agree">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2 cuadro">
+					<p class="c text-left">Suscribete y sé de los primeros en recibir el lanzamiento</p>
+					<form action="mail.php" method="post">
+						<div class="col-md-10">
+							<input id="email" type="text" name="email"placeholder="Escribe tu correo" required>
+						</div>
+						<div class="col-md-2 text-left">
+							<input class="btn btn-warning" type="submit" name="submit" value="Enviar" onclick="formReset()">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+<script src="http://tourstap.com/js/source.js"> </script>	
+</body>
+</html>
